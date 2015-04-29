@@ -54,7 +54,7 @@
 
 		a:hover {
 			border-bottom: solid 1px;
-			color: #FFF0A5 !important;
+			color: #FFF0A5 ;
 			text-decoration: none;
 		}
 
@@ -89,7 +89,7 @@
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		line-height: 1.5em;
 		font-family:'Antic Slab';
 	}
@@ -1241,7 +1241,8 @@
 		font-family:'Antic Slab';
 	}
 	header.major {
-		padding-top:30%;
+		padding-top:15%;
+		padding-bottom:5%;
 	}
 	#logo {
 		width:200%;
@@ -1259,6 +1260,40 @@
 	article h3:hover {
 		text-decoration:underline;
 	}
+	#switcharoo {
+		display:inline;
+	}
+	#skills ul li:hover{
+		color:black;
+		font-size:1.2em;
+	}
+	#skills ul li{
+		-moz-transition: font-size 0.1s ease-in-out;
+		-webkit-transition: font-size 0.1s ease-in-out;
+		-o-transition: font-size 0.1s ease-in-out;
+		-ms-transition: font-size 0.1s ease-in-out;
+		transition: font-size 0.1s ease-in-out;
+	}
+
+	.greenAccent {
+		color:#468966;
+		font-family:'Antic Slab';
+	}
+	#tagline a:hover {
+		color:#88ab88;
+
+	}
+	#tagline a::selection{
+		color:orange;
+	}
+	input[type="text"],
+	input[type="password"],
+	input[type="email"], 
+	textarea {
+		background-color:rgba(255,252,206,.4);
+		color:black;
+	}
+
 /* Touch */
 
 	body.is-touch .image.thumb:before {

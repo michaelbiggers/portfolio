@@ -44,8 +44,11 @@
 
 				<!-- Three -->
 					<section id="three">
-						<h2>Let's Chat</h2>
-						<p>Did you see something cool in my portfolio? Have an idea for a project? Maybe you just got a new email address that you've been wanting to try out. Drop me a line here - I'd love to hear from you!</p>
+						<h2 id = "switcharoo">Let's Chat</h2>
+						<p>Scenario 1: You're a couple of guys (or gals) in a brand new startup and you need a beautiful landing page for your product. You know a little about web stuff, but you really want to focus on your big idea; you need someone to make you a great site that you can maintain over the coming months.</p>
+						<p>Scenario 2: You work for a company that handles tons of web clients; new sites are added every week, existing pages need to be maintained, and you need someone reliable to add to the team. </p> 
+						<p>Scenario C: You're a small business owner; maybe you've been around for a while, or maybe your business is just getting on its feet. Either way, you've decided it's time you had a web presence to drive more business your way. 
+						<p>Did you guess it yet? I'm your guy! Drop me a line below; I'd love to hear from you.</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
 								<form method="post" action="#">
@@ -79,6 +82,15 @@
 						</div>
 					</section>
 
+					<script>
+						var switcher = document.getElementById("switcharoo");
+						switcher.onmouseover = function(){
+							switcher.innerHTML = ("(Hire Me)");
+						}
+						switcher.onmouseout = function(){
+							switcher.innerHTML = ("Let's Chat");
+						}
+					</script>
 				<!-- Four -->
 				<!--
 					<section id="four">
