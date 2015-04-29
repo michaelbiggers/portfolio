@@ -1267,7 +1267,7 @@
 		color:black;
 		font-size:1.2em;
 	}
-	#skills ul li{
+	#skills ul li, #three p:hover{
 		-moz-transition: font-size 0.1s ease-in-out;
 		-webkit-transition: font-size 0.1s ease-in-out;
 		-o-transition: font-size 0.1s ease-in-out;
@@ -1293,7 +1293,10 @@
 		background-color:rgba(255,252,206,.4);
 		color:black;
 	}
-
+#three p:hover {
+	color:black;
+	font-size:1.1em;
+}
 /* Touch */
 
 	body.is-touch .image.thumb:before {
